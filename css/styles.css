@@ -1,0 +1,16 @@
+#show-to-do{
+  list-style: url(../img/unchecked.gif);
+}
+#finished{
+  list-style: url(../img/checked.gif);
+}
+
+li:hover {
+  color: crimson;
+  cursor: crosshair;
+  text-decoration: underline;
+}
+
+#done {
+  display: none;
+}
